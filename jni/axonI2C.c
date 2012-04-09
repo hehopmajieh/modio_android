@@ -112,7 +112,7 @@ JNIEXPORT jint JNICALL Java_axon_test_testJNI_axonI2C_write(JNIEnv *env, jobject
     (*env)->GetIntArrayRegion(env, bufArr, 0, len, bufInt);
     bufByte[0] = mode;
     for (i = 0; i < len; i++)
-        bufByte[i + 1] = bufInt[i];      
+        bufByte[i] = bufInt[i];      
     
     res = ioctl(fileHander, I2C_SLAVE, slaveAddr);
     if (res != 0) {
@@ -120,7 +120,7 @@ JNIEXPORT jint JNICALL Java_axon_test_testJNI_axonI2C_write(JNIEnv *env, jobject
         goto err2;
     }
     
-    if ((j = write(fileHander, bufByte, len + 1)) != len + 1) {
+    if ((j = write(fileHander, bufByte, len)) != len) {
         LOGE("write fail in i2c");
         goto err2;        
     }
