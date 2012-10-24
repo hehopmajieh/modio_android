@@ -4,12 +4,11 @@
 
 -include ../makefile.init
 
-RM := del
+RM := rm
 
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include obj/local/armeabi/objs/axonI2C/subdir.mk
--include obj/local/armeabi/objs/TestJNI/subdir.mk
 -include subdir.mk
 -include objects.mk
 
@@ -24,7 +23,7 @@ all: TestJNI
 TestJNI: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++  -o "TestJNI" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -lc -o "TestJNI" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -1,5 +1,10 @@
+#undef __cplusplus
+#include <string.h>
+#include <fcntl.h>
+#include <stdlib.h>
+#include <unistd.h>
 #include "axonI2C.h"
-
+#include <jni.h>
 #define  LOG_TAG    "axoni2c"
 #define  LOGI(...)  __android_log_print(ANDROID_LOG_INFO,LOG_TAG,__VA_ARGS__)
 #define  LOGE(...)  __android_log_print(ANDROID_LOG_ERROR,LOG_TAG,__VA_ARGS__)
@@ -20,6 +25,7 @@ JNIEXPORT jint JNICALL Java_axon_test_testJNI_axonI2C_open(JNIEnv *env, jobject 
     }
     sprintf(fileName, "%s", str);
     LOGI("will open i2c device node %s", fileName);
+
     (*env)->ReleaseStringUTFChars(env, file, str);
     return open(fileName, O_RDWR);
 }
@@ -53,8 +59,10 @@ JNIEXPORT jint JNICALL Java_axon_test_testJNI_axonI2C_read(JNIEnv * env, jobject
     (*env)->GetIntArrayRegion(env, bufArr, 0, len, bufInt);
     
     res = ioctl(fileHander, I2C_SLAVE, slaveAddr);
+
     if (res != 0) {
-        LOGE("I2C: Can't set slave address");
+    	LOGE("will open i2c device hack1%d", res);
+    	LOGE("I2C: Can't set slave address");
         goto err2;
     }
     

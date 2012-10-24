@@ -1,134 +1,146 @@
-/cygdrive/c/tools/android/androidworkspace/testJNI/obj/local/armeabi/objs/axonI2C/axonI2C.o: \
- /cygdrive/c/tools/android/androidworkspace/testJNI/jni/axonI2C.c \
- /cygdrive/c/tools/android/androidworkspace/testJNI/jni/axonI2C.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/jni.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/stdio.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/_types.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/machine/_types.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/types.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/stdint.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/linux/posix_types.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/linux/stddef.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/linux/compiler.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/asm/posix_types.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/asm/types.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/linux/types.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/machine/kernel.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/android/log.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/fcntl.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/linux/fcntl.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/asm/fcntl.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/asm-generic/fcntl.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/unistd.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/select.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/time.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/linux/time.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/signal.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/limits.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/limits.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/linux/limits.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/machine/internal_types.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/machine/limits.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/syslimits.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/string.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/malloc.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/asm/signal.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/asm-generic/signal.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/asm/siginfo.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/asm-generic/siginfo.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/sysconf.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/linux/capability.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/pathconf.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/linux/i2c.h \
- /cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/memory.h
+/home/hehopmajieh/workspace/axon.test.testJNI.TestJNIActivity/obj/local/armeabi/objs/axonI2C/axonI2C.o: \
+ /home/hehopmajieh/workspace/axon.test.testJNI.TestJNIActivity/jni/axonI2C.c \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/string.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/cdefs.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/malloc.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/fcntl.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/types.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/stdint.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/_types.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/machine/_types.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/linux/posix_types.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/linux/stddef.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/linux/compiler.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/asm/posix_types.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/asm/types.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/linux/types.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/machine/kernel.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/sysmacros.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/linux/fcntl.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/asm/fcntl.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/asm-generic/fcntl.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/unistd.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/select.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/time.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/linux/time.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/signal.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/limits.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/limits.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/linux/limits.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/machine/internal_types.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/machine/limits.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/syslimits.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/asm/signal.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/asm-generic/signal.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/asm/sigcontext.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/asm/siginfo.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/asm-generic/siginfo.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/sysconf.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/linux/capability.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/pathconf.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/stdlib.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/alloca.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/strings.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/memory.h \
+ /home/hehopmajieh/workspace/axon.test.testJNI.TestJNIActivity/jni/axonI2C.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/jni.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/stdio.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/android/log.h \
+ /home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/linux/i2c.h
 
-/cygdrive/c/tools/android/androidworkspace/testJNI/jni/axonI2C.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/string.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/jni.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/cdefs.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/stdio.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/cdefs_elf.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/cdefs.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/malloc.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/fcntl.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/_types.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/types.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/machine/_types.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/stdint.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/types.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/_types.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/stdint.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/machine/_types.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/linux/posix_types.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/linux/posix_types.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/linux/stddef.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/linux/stddef.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/linux/compiler.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/linux/compiler.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/asm/posix_types.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/asm/posix_types.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/asm/types.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/asm/types.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/linux/types.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/linux/types.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/machine/kernel.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/machine/kernel.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/sysmacros.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/android/log.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/linux/fcntl.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/fcntl.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/asm/fcntl.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/linux/fcntl.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/asm-generic/fcntl.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/asm/fcntl.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/unistd.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/asm-generic/fcntl.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/select.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/unistd.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/time.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/select.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/linux/time.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/time.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/signal.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/linux/time.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/limits.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/signal.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/limits.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/limits.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/linux/limits.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/limits.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/machine/internal_types.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/linux/limits.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/machine/limits.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/machine/internal_types.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/syslimits.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/machine/limits.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/asm/signal.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/syslimits.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/asm-generic/signal.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/string.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/asm/sigcontext.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/malloc.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/asm/siginfo.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/asm/signal.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/asm-generic/siginfo.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/asm-generic/signal.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/sysconf.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/asm/siginfo.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/linux/capability.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/asm-generic/siginfo.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/pathconf.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/sys/sysconf.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/stdlib.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/linux/capability.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/alloca.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/pathconf.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/strings.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/linux/i2c.h:
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/memory.h:
 
-/cygdrive/c/tools/android/ndk/platforms/android-9/arch-arm/usr/include/memory.h:
+/home/hehopmajieh/workspace/axon.test.testJNI.TestJNIActivity/jni/axonI2C.h:
+
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/jni.h:
+
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/stdio.h:
+
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/android/log.h:
+
+/home/hehopmajieh/Downloads/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/linux/i2c.h:

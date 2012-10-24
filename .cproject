@@ -8,9 +8,6 @@
 				<externalSettings/>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
-					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 				</extensions>
@@ -20,22 +17,11 @@
 					<folderInfo id="com.android.toolchain.gcc.1109300845.209709506" name="/" resourcePath="">
 						<toolChain id="com.android.toolchain.gcc.1596738653" name="Android GCC" superClass="com.android.toolchain.gcc">
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.android.targetPlatform.1732439929" name="Android Platform" osList="all" superClass="com.android.targetPlatform"/>
-							<builder buildPath="${workspace_loc:/TestJNI/Default}" command="ndk-build.cmd" id="com.android.builder.1479916741" keepEnvironmentInBuildfile="false" superClass="com.android.builder"/>
+							<builder buildPath="${workspace_loc:/TestJNI/Default}" command="/home/hehopmajieh/Downloads/android-ndk-r8b/ndk-build" id="com.android.builder.1479916741" keepEnvironmentInBuildfile="false" name="Android Builder" superClass="com.android.builder"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1844274265" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
-							<tool id="com.android.tool.compiler.g++.2034196193" name="Android G++" superClass="com.android.tool.compiler.g++">
-								<option id="gnu.cpp.compiler.option.include.paths.1635094437" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;C:\Tools\Android\ndk\platforms\android-9\arch-arm\usr\include&quot;"/>
-								</option>
-								<inputType id="com.android.tool.compiler.g++.input.1400296441" superClass="com.android.tool.compiler.g++.input"/>
-							</tool>
-							<tool id="com.android.tool.compiler.c.160440554" name="Android GCC" superClass="com.android.tool.compiler.c">
-								<option id="gnu.c.compiler.option.include.paths.201723304" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;C:\Tools\Android\ndk\platforms\android-9\arch-arm\usr\include&quot;"/>
-								</option>
-								<inputType id="com.android.tool.compiler.c.input.438467369" superClass="com.android.tool.compiler.c.input"/>
-							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.1225654004" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.1089727002" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base">
+								<option id="gnu.cpp.link.option.flags.78256829" superClass="gnu.cpp.link.option.flags" value="-lc" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1007486063" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -43,6 +29,9 @@
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.base.1637453946" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1833355246" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="com.android.gcc.compiler.258126681" name="Android GCC Compiler" superClass="com.android.gcc.compiler">
+								<inputType id="com.android.gcc.inputType.2031420140" superClass="com.android.gcc.inputType"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
@@ -57,23 +46,33 @@
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="TestJNI.null.981251742" name="TestJNI"/>
 	</storageModule>
-	<storageModule moduleId="refreshScope" versionNumber="1">
-		<resource resourceType="PROJECT" workspacePath="/TestJNI"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/TestJNI"/>
+		</configuration>
 	</storageModule>
-	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings">
+		<doc-comment-owner id="org.eclipse.cdt.internal.ui.text.doctools.NullDocCommentOwner">
+			<path value=""/>
+		</doc-comment-owner>
+	</storageModule>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1109300845;com.android.toolchain.gcc.1109300845.209709506;com.android.tool.compiler.g++.1547044928;com.android.tool.compiler.g++.input.2090222776">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile"/>
+		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1109300845;com.android.toolchain.gcc.1109300845.895495568;com.android.tool.compiler.g++.441347960;com.android.tool.compiler.g++.input.2086486613">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile"/>
 		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1109300845;com.android.toolchain.gcc.1109300845.209709506;com.android.tool.compiler.g++.1547044928;com.android.tool.compiler.g++.input.2090222776">
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1109300845;com.android.toolchain.gcc.1109300845.209709506;com.android.gcc.compiler.258126681;com.android.gcc.inputType.2031420140">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.android.AndroidPerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1109300845;com.android.toolchain.gcc.1109300845.209709506;com.android.tool.compiler.c.518078848;com.android.tool.compiler.c.input.1868065238">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile"/>
 		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1109300845;com.android.toolchain.gcc.1109300845.895495568;com.android.tool.compiler.c.663460993;com.android.tool.compiler.c.input.335789649">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile"/>
 		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1109300845;com.android.toolchain.gcc.1109300845.209709506;com.android.tool.compiler.c.518078848;com.android.tool.compiler.c.input.1868065238">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile"/>
-		</scannerConfigBuildInfo>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 </cproject>
