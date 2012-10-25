@@ -3,5 +3,14 @@
 
     <string name="hello">Hello World, TestJNIActivity!</string>
     <string name="app_name">TestJNI</string>
+    <string-array name="addresses">
+         <item>0x58</item>
+        <item>0x59</item>
+        <item>0x60</item>
+        <item>0x61</item>
+        
+        
+        
+    </string-array>
 
 </resources>

@@ -6,6 +6,12 @@
     android:orientation="vertical"
     tools:context=".TestJNIActivity" >
 
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/addresses" />
+
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
@@ -82,8 +88,8 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="AN1:" />
-
+        android:text="AN1:"/>
+        
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"

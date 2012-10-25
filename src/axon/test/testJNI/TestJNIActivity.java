@@ -7,7 +7,11 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 public class TestJNIActivity extends Activity {
@@ -19,14 +23,17 @@ public class TestJNIActivity extends Activity {
 	int bits;
 	double adc1,adc2,adc3,adc4;
 	TextView DPort1,DPort2,DPort3,DPort4,APort1,APort2,APort3,APort4;
-	
-    
+	private Spinner spinner1;
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-
+        Spinner spinner = (Spinner) findViewById(R.id.spinner1);
+    
+     ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.addresses, android.R.layout.simple_spinner_item);
+     adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+     spinner.setAdapter(adapter);
        
         
         i2c = new axonI2C();
@@ -35,6 +42,8 @@ public class TestJNIActivity extends Activity {
 		state[2] = 0;
 		state[3] = 0; //save restore/state	
         //toDo : States @!
+		 
+		
 		new Thread() {
         	@Override
         	public void run() {
@@ -54,6 +63,8 @@ public class TestJNIActivity extends Activity {
 							APort2 = (TextView)findViewById(R.id.textView8);
 							APort3 = (TextView)findViewById(R.id.textView9);
 							APort4 = (TextView)findViewById(R.id.textView10);
+							
+							
 							String[] hin1 = { "su", "-c","chmod 777 /dev/i2c-2" };  //gain root access
 						        try {
 						                Runtime.getRuntime().exec(hin1);
@@ -61,10 +72,13 @@ public class TestJNIActivity extends Activity {
 						        // TODO Auto-generated catch block
 						        e.printStackTrace();
 						      }
-							  
-							final Button button = (Button) findViewById(R.id.button1);
+						       
+						        
+								final Button button = (Button) findViewById(R.id.button1);
 					        button.setOnClickListener(new View.OnClickListener() {
-					            public void onClick(View v) {
+					        	
+					 		 
+					        	public void onClick(View v) {
 					            
 					            
 					            	WriteI2C(slaveAddr, 1); //ToDo: check port 
@@ -178,7 +192,6 @@ public class TestJNIActivity extends Activity {
         	Log.w(TAG, "Could not open I2C interface");
         }
     		buf[0] = register;
-    		//buf[1] = 1;	
     		i2c.write(fileHandle, 0x58, 0, buf, 1);    	
         
 
@@ -195,7 +208,6 @@ public class TestJNIActivity extends Activity {
     int ReadI2CAnalog(int slaveAddr, int register)
     {
         int fileHandle = 0;
-        int Bits = 0;
         int[] buf = new int[4];
         
         try
