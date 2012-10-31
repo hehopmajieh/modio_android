@@ -151,12 +151,12 @@ public class TestJNIActivity extends Activity {
 					        
 					        
 					        switch   (ReadI2CDigital(slaveAddr,0x20)) {
-					        case 1 : //DPort1.setText("Digital Port1: High"); 
+					        case 1 : DPort1.setText("Digital Port1: High"); 
 					        	break;
 					        case 2 : DPort2.setText("Digital Port2: High"); break;
 					        case 4 : DPort3.setText("Digital Port3: High"); break;
 					        case 8 : DPort4.setText("Digital Port4: High"); break;
-					        default: //DPort1.setText("Digital Port1: Low"); 
+					        default: DPort1.setText("Digital Port1: Low"); 
 					        		 DPort2.setText("Digital Port2: Low");
 					        		 DPort3.setText("Digital Port3: Low");
 					        		 DPort4.setText("Digital Port4: Low"); break;
