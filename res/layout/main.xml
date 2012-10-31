@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:baselineAligned="true"
     android:orientation="vertical"
     tools:context=".TestJNIActivity" >
 
     <Spinner
         android:id="@+id/spinner1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:entries="@array/addresses" />
+        android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/button1"
@@ -107,5 +107,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="AN4:" />
+
+    <Button
+        android:id="@+id/button6"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change MOD-IO Address" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number|text" >
+
+        <requestFocus />
+    </EditText>
 
 </LinearLayout>
